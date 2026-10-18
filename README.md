@@ -1,5 +1,7 @@
 # Telco Customer Churn Prediction & Data Quality Pipeline
 
+[![Python CI](https://github.com/CountChu/telco-churn-capstone/actions/workflows/ci.yml/badge.svg)](https://github.com/CountChu/telco-churn-capstone/actions/workflows/ci.yml)
+
 A small, reproducible Python machine-learning application built for the UST *Python AI/ML Beginner
 Capstone*. It loads the IBM Telco customer CSV, validates and cleans it, explores churn patterns,
 trains a classifier, evaluates it, writes a customer-risk predictions file, and runs its test suite
@@ -67,7 +69,7 @@ Flow: `CSV -> load -> validate -> clean -> explore -> split -> train -> predict 
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/telco-churn-capstone.git
+git clone https://github.com/CountChu/telco-churn-capstone.git
 cd telco-churn-capstone
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
