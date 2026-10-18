@@ -1,0 +1,20 @@
+DATA VALIDATION REPORT
+----------------------
+Rows: 7043
+Columns: 21
+Required columns missing: none
+Column types: object (18), int64 (2), float64 (1)
+Numeric columns stored as text: TotalCharges
+Duplicate customer IDs: 0
+Missing-value fields: TotalCharges (11)
+Target labels (Churn): No (5174), Yes (1869)
+Invalid target values: none
+TotalCharges conversion issues: 11 blank/non-numeric value(s); tenure of those customers: 0
+Negative numeric values: none
+Tenure outside 0-120 months: 0
+Unexpected categorical values: none
+Service consistency issues: 0
+Overall status: REVIEW
+To handle before modelling:
+  - Missing or blank values in: TotalCharges (11)
+  - TotalCharges has 11 value(s) that are not numbers

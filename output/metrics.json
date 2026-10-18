@@ -1,0 +1,32 @@
+{
+  "primary_model": "logistic_regression",
+  "split": {
+    "test_size": 0.2,
+    "random_state": 42,
+    "stratified": true,
+    "train_rows": 5634,
+    "test_rows": 1409
+  },
+  "models": {
+    "logistic_regression": {
+      "accuracy": 0.8055358410220014,
+      "precision": 0.6572327044025157,
+      "recall": 0.5588235294117647,
+      "f1": 0.6040462427745664,
+      "true_negatives": 926,
+      "false_positives": 109,
+      "false_negatives": 165,
+      "true_positives": 209
+    },
+    "decision_tree": {
+      "accuracy": 0.7984386089425124,
+      "precision": 0.6347305389221557,
+      "recall": 0.5668449197860963,
+      "f1": 0.5988700564971752,
+      "true_negatives": 913,
+      "false_positives": 122,
+      "false_negatives": 162,
+      "true_positives": 212
+    }
+  }
+}
